@@ -44,7 +44,7 @@ void fractal2(float x, float y, float r) {
   pushMatrix();
   noFill();
   stroke(255);
-  strokeWeight(4);
+  strokeWeight(5);
   translate(x,y);
   ellipseMode(CENTER);
   ellipse(0,0,r+100,r+100);
